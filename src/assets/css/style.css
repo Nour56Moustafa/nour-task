@@ -220,6 +220,12 @@ footer {
   gap: 10px;
 }
 
+@media (max-width: 767px) {
+  .card-1 {
+    height: 50vh;
+  }
+}
+
 /* Card2 */
 .card-2 {
   height: 30vh;
@@ -264,6 +270,12 @@ footer {
   top: 8px;
   left: -6px;
   background-color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+  .card-2 {
+    height: 40vh;
+  }
 }
 
 /* Side */
